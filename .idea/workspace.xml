@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26c0216d-fad8-4eed-9de6-2bfd2d19b938" name="Default Changelist" comment="" />
+    <list default="true" id="26c0216d-fad8-4eed-9de6-2bfd2d19b938" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gymfox/angry_professor/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/com/gymfox/angry_professor/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hackerrunk/META-INF/hackerrunk.kotlin_module" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,18 +19,45 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gymfox/angry_professor/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/com/gymfox/angry_professor/SolutionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -61,13 +94,9 @@
         <option value="$PROJECT_DIR$/tests/com/gymfox/drawing_book/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/com/gymfox/drawing_book/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/gymfox/forming_a_magic_square/Solution.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/gymfox/angry_professor/Solution.java" />
+        <option value="$PROJECT_DIR$/tests/com/gymfox/angry_professor/SolutionTest.java" />
       </list>
     </option>
   </component>
@@ -88,27 +117,27 @@
         <subPane>
           <expand>
             <path>
-              <item name="hackerrunk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
               <item name="hackerrunk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hackerrunk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
               <item name="hackerrunk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hackerrunk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
               <item name="hackerrunk" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gymfox" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hackerrunk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
               <item name="hackerrunk" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hackerrunk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
               <item name="hackerrunk" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="gymfox" type="462c0819:PsiDirectoryNode" />
@@ -125,22 +154,23 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553941431635" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/checking" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.gymfox.angry_professor" />
       <recent name="com.gymfox.drawing_book" />
       <recent name="com.gymfox.picking_numbers" />
       <recent name="com.gymfox.utopian_tree" />
       <recent name="com.gymfox.designerPDFviewer" />
-      <recent name="com.gymfox.the_hurdle_race" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.gymfox.jumping_on_the_clouds" />
@@ -166,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.pageCountTest">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -209,17 +239,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackerrunk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gymfox.picking_numbers.*" />
+          <option name="PATTERN" value="com.gymfox.angry_professor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gymfox.picking_numbers" />
-      <option name="MAIN_CLASS_NAME" value="com.gymfox.picking_numbers.SolutionTest" />
+      <option name="PACKAGE_NAME" value="com.gymfox.angry_professor" />
+      <option name="MAIN_CLASS_NAME" value="com.gymfox.angry_professor.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.angryProfessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hackerrunk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gymfox.angry_professor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gymfox.angry_professor" />
+      <option name="MAIN_CLASS_NAME" value="com.gymfox.angry_professor.SolutionTest" />
+      <option name="METHOD_NAME" value="angryProfessorTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -236,23 +283,6 @@
       <option name="PACKAGE_NAME" value="com.gymfox.drawing_book" />
       <option name="MAIN_CLASS_NAME" value="com.gymfox.drawing_book.SolutionTest" />
       <option name="METHOD_NAME" value="pageCountTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.pickingNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hackerrunk" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gymfox.picking_numbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gymfox.picking_numbers" />
-      <option name="MAIN_CLASS_NAME" value="com.gymfox.picking_numbers.SolutionTest" />
-      <option name="METHOD_NAME" value="pickingNumberTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -286,11 +316,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.SolutionTest.angryProfessorTest" />
         <item itemvalue="JUnit.SolutionTest.pageCountTest" />
         <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="JUnit.SolutionTest (2)" />
-        <item itemvalue="JUnit.SolutionTest.pickingNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -316,41 +346,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_(1) - 2019.05.21 at 13h 58m 07s.xml">
-      <configuration name="SolutionTest (1)" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2019.05.25 at 21h 32m 42s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_(1) - 2019.05.21 at 13h 59m 41s.xml">
-      <configuration name="SolutionTest (1)" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2019.05.25 at 21h 32m 52s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_(1) - 2019.05.21 at 14h 00m 00s.xml">
-      <configuration name="SolutionTest (1)" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2019.05.25 at 21h 32m 57s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_(1) - 2019.05.21 at 14h 00m 24s.xml">
-      <configuration name="SolutionTest (1)" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2019.05.25 at 21h 33m 08s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_pageCountTest - 2019.05.21 at 14h 02m 48s.xml">
-      <configuration name="SolutionTest.pageCountTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2019.05.25 at 21h 36m 45s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_pageCountTest - 2019.05.21 at 14h 03m 01s.xml">
-      <configuration name="SolutionTest.pageCountTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2019.05.25 at 21h 37m 06s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_pageCountTest - 2019.05.21 at 14h 03m 41s.xml">
-      <configuration name="SolutionTest.pageCountTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2019.05.25 at 21h 37m 29s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_pageCountTest - 2019.05.21 at 14h 03m 55s.xml">
-      <configuration name="SolutionTest.pageCountTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2019.05.25 at 21h 38m 07s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_pageCountTest - 2019.05.21 at 14h 05m 26s.xml">
-      <configuration name="SolutionTest.pageCountTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2019.05.25 at 21h 38m 25s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_pageCountTest - 2019.05.21 at 14h 06m 55s.xml">
-      <configuration name="SolutionTest.pageCountTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2019.05.25 at 21h 40m 35s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="93" width="1368" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2344932" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -360,7 +391,7 @@
       <window_info id="DB Browser" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33035713" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33035713" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39732143" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -674,12 +705,63 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gymfox/forming_a_magic_square/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hackerrunk.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/gymfox/angry_professor/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gymfox/angry_professor/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -694,6 +776,17 @@
       <state key="JdkListConfigurable.UI">
         <settings>
           <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

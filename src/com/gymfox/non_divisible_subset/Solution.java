@@ -5,8 +5,6 @@ import java.util.Map;
 
 public class Solution {
     static int nonDivisibleSubset(int k, int[] S) {
-        int count = 1;
-
         Map<Integer, Integer> remainders = new HashMap<>();
 
         for (int item : S) {
@@ -14,16 +12,13 @@ public class Solution {
         }
 
         int noOfElementsInSubset = remainders.getOrDefault(0, 0);
+        int count = 1;
 
-        for (int i = count; 2 * i < k; i++) {
-            noOfElementsInSubset += Math.max(remainders.getOrDefault(i, 0), remainders.getOrDefault(k - i, 0));
+        for (; 2 * count < k; ) {
+            noOfElementsInSubset += Math.max(remainders.getOrDefault(count, 0), remainders.getOrDefault(k - count, 0));
             count += 1;
         }
 
         return 2 * count == k ? noOfElementsInSubset + 1 : noOfElementsInSubset;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(nonDivisibleSubset(9, new int[]{1, 2, 3, 4, 5, 6}));
     }
 }

@@ -1,6 +1,5 @@
 package com.gymfox.beatifulTriplet;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -21,6 +20,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(beautifulTriplets(3, new int[]{1, 2, 4, 5, 7, 8, 10}));
+        System.out.println(beautifulTriplets(3, new int[]{1, 2, 4, 5, 7, 8, 10, 7}));
     }
 }

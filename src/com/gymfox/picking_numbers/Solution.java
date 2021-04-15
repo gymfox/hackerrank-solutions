@@ -31,7 +31,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(pickingNumbers(new ArrayList<>() {{
+        System.out.println(pickingNumbers(new ArrayList<Integer>() {{
             add(1);
             add(2);
             add(2);
